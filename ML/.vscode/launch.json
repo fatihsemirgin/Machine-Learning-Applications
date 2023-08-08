@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Node.js Debug",
+      "type": "node", // Bu satır, Node.js debug türünü belirtir.
+      "request": "launch",
+      "program": "${workspaceFolder}/index.js",
+      "skipFiles": ["<node_internals>/**"],
+      "outFiles": ["${workspaceFolder}/**/*.js"]
+    }
+  ]
+}
